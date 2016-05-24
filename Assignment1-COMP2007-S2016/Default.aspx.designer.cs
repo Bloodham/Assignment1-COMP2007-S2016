@@ -11,7 +11,7 @@ namespace Assignment1_COMP2007_S2016
 {
 
 
-    public partial class Home
+    public partial class Default
     {
     }
 }
