@@ -1,1 +1,47 @@
 ﻿/* CSS Section*/
+html{
+    
+    background-image:url(../Assets/computer_science.jpg);
+    background-size: 100%;
+}
+
+body{
+	font-size: 150%;
+	font-family:sans-serif;
+	color: #333;
+	width: 1000px;
+	background-color: white;
+	margin: 15px auto;
+    padding-bottom: 2em;
+	border-radius: 4px; 
+    
+}
+#dh1{
+    padding-left: 25em;
+}
+#p1{
+    padding-left: 1em;
+}
+#image1{
+    margin-left: 150px; 
+}
+#p2{
+    padding-left: 1em;
+}
+#p3{
+    padding-left: 1em;
+}
+#image2{
+   margin-left: 150px;
+}
+#title1{
+     margin-left: 350px;
+}
+#image3{
+    margin-left: 200px;
+}
+#p4{
+    
+}
+#p5{
+}
