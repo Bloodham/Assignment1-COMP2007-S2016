@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, inital-scale=1" />
     <title></title>
     <!--Css Section -->
-    
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />

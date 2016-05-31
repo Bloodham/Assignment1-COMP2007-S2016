@@ -5,11 +5,12 @@
             <h1>My Services</h1>
         </div>
     </div>
-    <img id="image3" src="../Assets/java.png"/>
-    <div id="p4">
-        Java, C++
-    </div>
-  
-        
-   
+        <figure>
+            <img src="../Assets/java.png" />
+            <figcaption>Java</figcaption>
+        </figure>
+    <figure>
+        <img src="../Assets/mysql.png" width="150" height="150" />
+        <figcaption>MySQL</figcaption>
+    </figure>
 </asp:Content>
