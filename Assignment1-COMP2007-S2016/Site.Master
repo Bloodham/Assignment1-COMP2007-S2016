@@ -1,7 +1,12 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Assignment1_COMP2007_S2016.Site" %>
+﻿<!--
+Site.Master
+Ryan Jameson
+http://assignment1-comp2007-s2016.azurewebsites.net/
+This is the Master page for Default, Projects, Services and About. Holds the nav,css and js scripts.
+-->
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Assignment1_COMP2007_S2016.Site" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
@@ -45,7 +50,6 @@
         </nav>
     <div>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        
         </asp:ContentPlaceHolder>
     </div>
     </form>

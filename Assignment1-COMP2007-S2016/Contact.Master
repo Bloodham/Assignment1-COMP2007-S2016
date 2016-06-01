@@ -1,7 +1,12 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Assignment1_COMP2007_S2016.Site" %>
+﻿<!--
+Project.Master
+Ryan Jameson
+http://assignment1-comp2007-s2016.azurewebsites.net/
+Is the single Master page to Contact.aspx, allows for different controls to be used for contact.
+-->
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Assignment1_COMP2007_S2016.Site" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
@@ -16,7 +21,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-     <form id="form1" runat="server">
+    <form id="form1" runat="server">
         <nav class="navbar navbar-inverse" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -32,22 +37,21 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                        <li id="projects" runat="server"><a href="Projects.aspx"><i class="fa fa-th fa-lg"></i> Projects</a></li>
-                        <li id="services" runat="server"><a href="Services.aspx"><i class="fa fa-gear fa-lg"></i> Services</a></li>
-                        <li id="about" runat="server"><a href="About.aspx"><i class="fa fa-info fa-lg"></i> About Us</a></li>
-                        <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
+                        <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>Home</a></li>
+                        <li id="projects" runat="server"><a href="Projects.aspx"><i class="fa fa-th fa-lg"></i>Projects</a></li>
+                        <li id="services" runat="server"><a href="Services.aspx"><i class="fa fa-gear fa-lg"></i>Services</a></li>
+                        <li id="about" runat="server"><a href="About.aspx"><i class="fa fa-info fa-lg"></i>About Us</a></li>
+                        <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
         </nav>
-    <div>
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
     </form>
     <!-- Javascript section -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
