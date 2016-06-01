@@ -37,6 +37,9 @@ body{
 #title1{
      margin-left: 350px;
 }
+#title2{
+     margin-left: 100px;
+}
 #image3{
     margin-left: 400px;
 }
@@ -48,4 +51,10 @@ body{
 }
 #p5{
     margin-left: 456px;
+}
+#p6{
+    margin-left: 490px;
+}
+#image5{
+    margin-left: 450px;
 }

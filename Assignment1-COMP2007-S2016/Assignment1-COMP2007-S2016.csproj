@@ -71,6 +71,7 @@
     <Content Include="Assets\Java.png" />
     <Content Include="Assets\jonsnow.jpeg" />
     <Content Include="Assets\mysql.png" />
+    <Content Include="Assets\website.jpg" />
     <Content Include="packages.config" />
     <Content Include="Site.Master" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
