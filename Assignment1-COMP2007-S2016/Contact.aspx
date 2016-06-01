@@ -1,9 +1,4 @@
-﻿<!--
-Contact.aspx
-Ryan Jameson
-http://assignment1-comp2007-s2016.azurewebsites.net/
-Holds the contents of Contact
--->
+﻿
 <%@ Page Title="Contact" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Assignment1_COMP2007_S2016.Contact1" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

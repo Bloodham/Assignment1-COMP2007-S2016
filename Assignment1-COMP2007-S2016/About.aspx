@@ -1,9 +1,4 @@
-﻿<!--
-About.aspx
-Ryan Jameson
-http://assignment1-comp2007-s2016.azurewebsites.net/
-Holds the contents of About
--->
+﻿
 <%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Assignment1_COMP2007_S2016.About" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

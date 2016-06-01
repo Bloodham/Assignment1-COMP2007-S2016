@@ -1,9 +1,4 @@
-﻿<!--
-Default.aspx
-Ryan Jameson
-http://assignment1-comp2007-s2016.azurewebsites.net/
-Default page for the website, without a default page a 404 error happens when tested.
--->
+﻿
 <%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Assignment1_COMP2007_S2016.Default" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
